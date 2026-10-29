@@ -1,0 +1,23 @@
+<!doctype html>
+<!-- Netlify Forms detection only: it must mirror the fields in components/site/enquiry-form.tsx -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form name="enquiry" method="POST" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="enquiry" />
+      <input name="bot-field" />
+      <input name="name" />
+      <input name="phone" />
+      <input name="email" type="email" />
+      <input name="city" />
+      <select name="brand"><option>All brands</option></select>
+      <select name="role"><option>Homeowner</option></select>
+      <input name="product" />
+      <textarea name="message"></textarea>
+    </form>
+  </body>
+</html>
